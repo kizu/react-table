@@ -1,4 +1,4 @@
-declare module 'react-table-v6' {
+declare module '@kizu/react-table-v6' {
     // Type definitions for react-table 6.8
     // Project: https://github.com/react-tools/react-table
     // Definitions by: Roy Xue <https://github.com/royxue>,

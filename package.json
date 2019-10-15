@@ -1,6 +1,6 @@
 {
   "name": "@kizu/react-table-v6",
-  "version": "6.11.0",
+  "version": "6.11.1",
   "description": "A fast, lightweight, opinionated table and datagrid built on React",
   "license": "MIT",
   "homepage": "https://github.com/tannerlinsley/react-table/tree/v6#readme",
@@ -20,6 +20,7 @@
     "src/",
     "es/",
     "lib/",
+    "index.d.ts",
     "react-table.js",
     "react-table.min.js",
     "react-table.css",
