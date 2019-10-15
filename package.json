@@ -1,5 +1,5 @@
 {
-  "name": "react-table-v6",
+  "name": "@kizu/react-table-v6",
   "version": "6.11.0",
   "description": "A fast, lightweight, opinionated table and datagrid built on React",
   "license": "MIT",
