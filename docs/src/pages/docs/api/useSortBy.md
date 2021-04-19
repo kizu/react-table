@@ -72,7 +72,7 @@ The following options are supported on any `Column` object passed to the `column
   - Defaults to `false`
   - If set to `true`, the underlying sorting direction will be inverted, but the UI will not.
   - This may be useful in situations where positive and negative connotation is inverted, eg. a Golfing score where a lower score is considered more positive than a higher one.
-- `sortType: String | Function(rowA: <Row>, rowB: <Row>, columnId: String, desc: Bool)`
+- `sortType: String | Function(rowA: <Row>, rowB: <Row>, columnId: String, desc: Bool, column: <Column>)`
   - Used to compare 2 rows of data and order them correctly.
   - If a **function** is passed, it must be **memoized**. The sortType function should return 1 if rowA is larger, and -1 if rowB is larger. `react-table` will take care of the rest.
   - String options: `basic`, `datetime`, `alphanumeric`. Defaults to `alphanumeric`.

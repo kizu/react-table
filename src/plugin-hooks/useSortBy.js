@@ -319,7 +319,7 @@ function useInstance(instance) {
 
           // Return the correct sortFn.
           // This function should always return in ascending order
-          return (a, b) => sortMethod(a, b, sort.id, sort.desc)
+          return (a, b) => sortMethod(a, b, sort.id, sort.desc, column)
         }),
         // Map the directions
         availableSortBy.map(sort => {
